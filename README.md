@@ -18,7 +18,7 @@ A simple **Weather Lookup App** powered by Django Rest Framework (**DRF**) for t
 ## 📷 Screenshots  
 | Search City  | Weather Results |
 |-------------|----------------|
-| ![Search]([https://github.com/AAbdelrahman911/Weather-API/blob/main/screenshots/1.jpg](https://i.imgur.com/qL1rVDD.jpeg)) | ![Results]([https://github.com/AAbdelrahman911/Weather-API/blob/main/screenshots/2.jpg](https://i.imgur.com/IN9Mo77.jpeg)) |
+| ![Search](https://i.imgur.com/qL1rVDD.jpeg) | ![Results](https://i.imgur.com/IN9Mo77.jpeg) |
 
 ## 🔧 Setup & Installation  
 ### 1️⃣ **Clone the repository**  
