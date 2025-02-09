@@ -13,7 +13,6 @@ A simple **Weather Lookup App** powered by Django Rest Framework (**DRF**) for t
 ## 🛠️ Tech Stack  
 - **Backend**: Django Rest Framework (DRF), OpenWeather API  
 - **Frontend**: AI-generated HTML, CSS, JavaScript  
-- **Deployment**: Render, Vercel (TBD)  
 
 ## 📷 Screenshots  
 | Search City  | Weather Results |
