@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'weather/css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <h1>Weather Lookup</h1>
+            <div class="search-box">
+                <input type="text" id="locationInput" placeholder="Enter city name...">
+                <button id="searchButton">Search</button>
+            </div>
+            <div id="errorMessage" class="error-message"></div>
+            <div id="loadingSpinner" class="loading-spinner hidden"></div>
+            <div id="weatherInfo" class="weather-info hidden">
+                <h2 id="locationName"></h2>
+                <div class="weather-grid">
+                    <div class="weather-item">
+                        <span class="icon">🌡️</span>
+                        <span class="label">Temperature</span>
+                        <span id="temperature" class="value"></span>
+                    </div>
+                    <div class="weather-item">
+                        <span class="icon">☁️</span>
+                        <span class="label">Condition</span>
+                        <span id="condition" class="value"></span>
+                    </div>
+                    <div class="weather-item">
+                        <span class="icon">💧</span>
+                        <span class="label">Humidity</span>
+                        <span id="humidity" class="value"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'weather/js/script.js' %}"></script>
+</body>
+</html>
